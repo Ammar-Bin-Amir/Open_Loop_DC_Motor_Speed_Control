@@ -1,0 +1,23 @@
+Drill report for D:/UIT/Projects/19) Open Loop DC Motor Speed Control/Open_Loop_DC_Motor_Speed_Control_Project/Open_Loop_DC_Motor_Speed_Control_Project.kicad_pcb
+Created on 02/26/23 17:14:25
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Open_Loop_DC_Motor_Speed_Control_Project-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.750mm  0.0295"  (6 holes)
+    T2  0.800mm  0.0315"  (26 holes)
+
+    Total plated holes count 32
+
+
+Drill file 'Open_Loop_DC_Motor_Speed_Control_Project-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

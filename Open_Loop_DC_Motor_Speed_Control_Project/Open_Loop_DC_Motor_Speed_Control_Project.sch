@@ -1,0 +1,291 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US R1
+U 1 1 635ADD76
+P 4750 2650
+F 0 "R1" V 4545 2650 50  0000 C CNN
+F 1 "10kΩ" V 4636 2650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4750 2650 50  0001 C CNN
+F 3 "~" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC546 Q1
+U 1 1 635AE366
+P 6750 2250
+F 0 "Q1" H 6941 2296 50  0000 L CNN
+F 1 "BC547" H 6941 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6950 2175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 6750 2250 50  0001 L CNN
+	1    6750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC636 Q2
+U 1 1 635AEC1C
+P 6750 3250
+F 0 "Q2" H 6941 3204 50  0000 L CNN
+F 1 "BC557" H 6941 3295 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6950 3175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC636-D.pdf" H 6750 3250 50  0001 L CNN
+	1    6750 3250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 635B00CB
+P 7500 2250
+F 0 "C1" H 7591 2296 50  0000 L CNN
+F 1 "470μF,16V" H 7591 2205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 7500 2250 50  0001 C CNN
+F 3 "~" H 7500 2250 50  0001 C CNN
+	1    7500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 635B0FE2
+P 3250 2700
+F 0 "BT1" H 3550 2700 50  0000 R CNN
+F 1 "9V" H 3500 2800 50  0000 R CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" V 3250 2760 50  0001 C CNN
+F 3 "~" V 3250 2760 50  0001 C CNN
+	1    3250 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 635B292D
+P 3900 2700
+F 0 "J1" H 4008 2881 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4008 2790 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3900 2700 50  0001 C CNN
+F 3 "~" H 3900 2700 50  0001 C CNN
+	1    3900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 635B5C12
+P 4750 2850
+F 0 "R2" V 4850 2850 50  0000 C CNN
+F 1 "10kΩ" V 4950 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4750 2850 50  0001 C CNN
+F 3 "~" H 4750 2850 50  0001 C CNN
+	1    4750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 635B74A8
+P 5250 3500
+F 0 "R3" H 5182 3454 50  0000 R CNN
+F 1 "10kΩ" H 5182 3545 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5250 3500 50  0001 C CNN
+F 3 "~" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 635B7EBE
+P 5750 2000
+F 0 "R4" V 5545 2000 50  0000 C CNN
+F 1 "10kΩ" V 5636 2000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5750 2000 50  0001 C CNN
+F 3 "~" H 5750 2000 50  0001 C CNN
+	1    5750 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:LM741 U1
+U 1 1 635AD05A
+P 5750 2750
+F 0 "U1" H 6094 2704 50  0000 L CNN
+F 1 "LM741" H 6094 2795 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5800 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 5900 2900 50  0001 C CNN
+	1    5750 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 635BE442
+P 7500 3250
+F 0 "C2" H 7300 3200 50  0000 L CNN
+F 1 "470μF,16V" H 7000 3300 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm" H 7500 3250 50  0001 C CNN
+F 3 "~" H 7500 3250 50  0001 C CNN
+	1    7500 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 2650 5250 2650
+Wire Wire Line
+	4100 2700 4500 2700
+Wire Wire Line
+	4500 2700 4500 2650
+Wire Wire Line
+	4500 2650 4650 2650
+Wire Wire Line
+	4100 2800 4500 2800
+Wire Wire Line
+	4500 2800 4500 2850
+Wire Wire Line
+	4500 2850 4650 2850
+Wire Wire Line
+	3250 2600 3250 2250
+Wire Wire Line
+	3250 2250 5650 2250
+Wire Wire Line
+	5650 2250 5650 2450
+Wire Wire Line
+	3250 2900 3250 3250
+Wire Wire Line
+	3250 3250 5650 3250
+Wire Wire Line
+	5650 3250 5650 3050
+Wire Wire Line
+	4850 2850 5250 2850
+Wire Wire Line
+	5650 2000 5250 2000
+Wire Wire Line
+	5250 2000 5250 2650
+Connection ~ 5250 2650
+Wire Wire Line
+	5250 2650 5450 2650
+Wire Wire Line
+	5250 3400 5250 2850
+Connection ~ 5250 2850
+Wire Wire Line
+	5250 2850 5450 2850
+Wire Wire Line
+	6050 2750 6500 2750
+Wire Wire Line
+	6500 2750 6500 2250
+Wire Wire Line
+	6500 2250 6550 2250
+Wire Wire Line
+	6550 3250 6500 3250
+Wire Wire Line
+	6500 3250 6500 2750
+Connection ~ 6500 2750
+Wire Wire Line
+	6850 2050 6850 2000
+Wire Wire Line
+	6850 2000 7500 2000
+Wire Wire Line
+	7500 2000 7500 2150
+$Comp
+L power:GND #PWR0101
+U 1 1 635C9B38
+P 8000 2850
+F 0 "#PWR0101" H 8000 2600 50  0001 C CNN
+F 1 "GND" H 8005 2677 50  0000 C CNN
+F 2 "" H 8000 2850 50  0001 C CNN
+F 3 "" H 8000 2850 50  0001 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 635CB346
+P 5250 3750
+F 0 "#PWR0102" H 5250 3500 50  0001 C CNN
+F 1 "GND" H 5255 3577 50  0000 C CNN
+F 2 "" H 5250 3750 50  0001 C CNN
+F 3 "" H 5250 3750 50  0001 C CNN
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 635CB8BA
+P 7500 3500
+F 0 "#PWR0103" H 7500 3250 50  0001 C CNN
+F 1 "GND" H 7505 3327 50  0000 C CNN
+F 2 "" H 7500 3500 50  0001 C CNN
+F 3 "" H 7500 3500 50  0001 C CNN
+	1    7500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 635CBF22
+P 7500 2500
+F 0 "#PWR0104" H 7500 2250 50  0001 C CNN
+F 1 "GND" H 7505 2327 50  0000 C CNN
+F 2 "" H 7500 2500 50  0001 C CNN
+F 3 "" H 7500 2500 50  0001 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2350 7500 2500
+Wire Wire Line
+	5250 3600 5250 3750
+Wire Wire Line
+	3250 3250 3250 4000
+Wire Wire Line
+	3250 4000 6850 4000
+Wire Wire Line
+	6850 4000 6850 3450
+Connection ~ 3250 3250
+Wire Wire Line
+	3250 2250 3250 1500
+Wire Wire Line
+	3250 1500 6850 1500
+Wire Wire Line
+	6850 1500 6850 2000
+Connection ~ 3250 2250
+Connection ~ 6850 2000
+Wire Wire Line
+	5850 2000 6050 2000
+Wire Wire Line
+	6050 2000 6050 2750
+Connection ~ 6050 2750
+Wire Wire Line
+	6850 2450 6850 2750
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 635E9570
+P 8350 2750
+F 0 "J2" H 8200 2950 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 7900 2850 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical" H 8350 2750 50  0001 C CNN
+F 3 "~" H 8350 2750 50  0001 C CNN
+	1    8350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2750 6850 2750
+Connection ~ 6850 2750
+Wire Wire Line
+	8150 2850 8000 2850
+Wire Wire Line
+	6850 2750 6850 3000
+Wire Wire Line
+	7500 3150 7500 3000
+Wire Wire Line
+	7500 3000 6850 3000
+Connection ~ 6850 3000
+Wire Wire Line
+	6850 3000 6850 3050
+Wire Wire Line
+	7500 3350 7500 3500
+$EndSCHEMATC
